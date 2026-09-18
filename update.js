@@ -56,3 +56,5 @@ async function updateStats() {
         process.exit(1)
     }
 }
+
+updateStats();
