@@ -43,6 +43,7 @@
     "code": "vortiety",
     "name": "Vortiety",
     "description": "unofficial home of the vortex community. Better Vortex [BTV] Web Extension and our goofy little bot, Vortexian.",
+    "ownerName": "Renzo",
     "memberCount": 154,
     "icon": "https://cdn.discordapp.com/icons/1517274041910694038/a_19adc4818ca91d846a61a8b529917ce0.png?size=256"
   },
@@ -50,6 +51,7 @@
     "code": "p2ZAr74DVc",
     "name": "The Vortex Complex",
     "description": "The place for all clans and members of Vortex to unite! We have a Congress Of Vortex that solves issues in the community and forwards it to the devs. This server hosts VortexCon 2026, The Vortex Gameshow, and so much more! Join for a chance for YOU to be heard.",
+    "ownerName": "Brainy",
     "memberCount": 173,
     "icon": "https://cdn.discordapp.com/icons/1533635162204536902/ae8c175cc9ea334ffaec0e8584a6bfbd.png?size=256"
   },
@@ -64,6 +66,7 @@
     "code": "sK9TXc9GnT",
     "name": "State Of Noobia | SN",
     "description": "The official discord community for the vortex group called Noobic Union. Founded in 2026 by BornOfficial.",
+    "ownerName": "BornPotato",
     "memberCount": 95,
     "icon": "https://cdn.discordapp.com/icons/1530491282601021450/b58c0ef0c6c14bf8685ca95ae956a68a.png?size=256"
   },
@@ -71,6 +74,7 @@
     "code": "87aFG5HYQD",
     "name": "The Blue Republic (Blue Union)",
     "description": "A democratic clan started on the game Vortex, committed to freedom of speech, free travel, and active governance",
+    "ownerName": "TheBlueGuy",
     "memberCount": 121,
     "icon": "https://cdn.discordapp.com/icons/1532084827954872552/92589c3fb34060b28754e16abecc98c8.png?size=256"
   },
@@ -330,6 +334,7 @@
     "code": "qee6zAq9jT",
     "name": "Bonzi Clan",
     "description": null,
+    "ownerName": "Derek",
     "memberCount": 28,
     "icon": "https://cdn.discordapp.com/icons/1540693975243948093/bc11b5af3e524a5869af110c8dd4e010.png?size=256"
   },
@@ -736,6 +741,7 @@
     "code": "MdcNGCvxEj",
     "name": "VoPro",
     "description": "Official server for VoPro, and just hanging out! VoPro is a Vortex extension that enhances the styles of the website and makes it look more colorful, with more features, and more themes!",
+    "ownerName": "codedLunar",
     "memberCount": 21,
     "icon": "https://cdn.discordapp.com/icons/1540138464626872370/5df6e67eb6fc7381baee2eee26000807.png?size=256"
   }
