@@ -152,7 +152,7 @@ async function getMemberCount(inviteCode) {
             borderRadius: '10px'
           })
 
-          page_btn.textContent = "Go to page";
+          page_btn.textContent = "Join Server";
 
           document.querySelector(".servers-container").append(grp_card)
 
