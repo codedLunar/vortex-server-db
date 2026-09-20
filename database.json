@@ -145,7 +145,11 @@
     "icon": "https://cdn.discordapp.com/icons/1540397670554669138/7709684dc5e00fddbf8e6e28788d19af.png?size=256"
   },
   {
-    "code": "3bJ2WPWxUp"
+    "code": "3bJ2WPWxUp",
+    "name": "Bubbol!",
+    "description": "Open-Source UGC Platform made in Godot",
+    "memberCount": 59,
+    "icon": "https://cdn.discordapp.com/icons/1514772976480817172/1ea51682bb0fd3217328561020c29131.png?size=256"
   },
   {
     "code": "R7wqehyX95",
