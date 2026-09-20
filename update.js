@@ -35,6 +35,7 @@ async function updateStats() {
                         code: invite,
                         name: data.guild.name,
                         description: data.guild.description,
+                        ownerName: data.inviter.global_name
                         memberCount: data.approximate_member_count,
                         icon: data.guild.icon ? `https://cdn.discordapp.com/icons/${data.guild.id}/${data.guild.icon}.png?size=256` : null
                     }
