@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+html, body {
+    background-color: rgb(12, 12, 12);
+}
+
+* {
+    font-family: Roboto;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+    color: rgb(245,245,245);
+}
+
+#title {
+    font-size: 3rem;
+    text-align: center;
+}
+.servers-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.servers-container > * {
+    width: 100%;
+    min-width: 280px;
+    box-sizing: border-box;
+}
+
+.server {
+    background-color: rgb(27, 27, 27);
+    padding: 10px;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.server img {
+    flex: 0 0 150px;
+    width: 150px;
+    height: 150px;
+}
+
+.server div {
+    display: flex;
+    gap: 15px;
+    min-width: 0;
+}
+
+.server .desc {
+    font-size: 1.2rem;
+}
+
+.server a {
+    margin-top: auto;
+}
+
+.server h1 {
+    min-width: 0;
+    max-width: 100%;
+    overflow-wrap: normal;
+    word-break: normal;
+    white-space: normal;
+}
