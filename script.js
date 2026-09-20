@@ -1,5 +1,44 @@
 let responseJson;
 
+async function sort_members() {
+    // this function assumes the groups have already been created
+    const serversContainer = document.querySelector(".servers-container")
+    const servers = Array.from(serversContainer.children);
+
+    servers.sort((a, b) => {
+        const valA = parseFloat(a.querySelector(".grp-card-bottom").querySelector(".grp-card-meta").querySelector(".grp-card-members").textContent);
+        const valB = parseFloat(b.querySelector(".grp-card-bottom").querySelector(".grp-card-meta").querySelector(".grp-card-members").textContent);
+        return valA - valB;
+    });
+
+    servers.forEach((server) => {
+        serversContainer.prepend(server)
+    });
+
+    [... document.querySelector(".servers-container-loading").children].forEach((loadingserver) => {
+        loadingserver.remove();
+    })
+
+    document.querySelector("html").style.overflow = 'auto'
+    document.querySelector("body").style.overflow = 'auto'
+}
+
+async function sort_members_least() {
+    // this function assumes the groups have already been created
+    const serversContainer = document.querySelector(".servers-container")
+    const servers = Array.from(serversContainer.children);
+
+    servers.sort((a, b) => {
+        const valA = parseFloat(a.querySelector(".grp-card-bottom").querySelector(".grp-card-meta").querySelector(".grp-card-members").textContent);
+        const valB = parseFloat(b.querySelector(".grp-card-bottom").querySelector(".grp-card-meta").querySelector(".grp-card-members").textContent);
+        return valA - valB;
+    });
+
+    servers.forEach((server) => {
+        serversContainer.append(server)
+    })
+}
+
 async function getMemberCount(inviteCode) {
 
     const grp_card = document.createElement("div")
@@ -193,15 +232,17 @@ async function getMemberCount(inviteCode) {
         grp_card_icon.src = data.icon
 
     } catch (error) {
-        console.error('error fetching member count:', error);
+        console.error('Error fetching member count:', error);
     }
+
+    sort_members();
 }
 
 let db;
 
 async function getDB() {
     // gotta use an async function because no await in global js
-    let resp = await fetch("database.json");
+    let resp = await fetch("https://codedlunar.github.io/vortex-server-db/database.json");
     db = await resp.json()
 }
 
@@ -210,7 +251,7 @@ async function main() {
     const response = await fetch("https://codedlunar.github.io/vortex-server-db/database.json");
         
     if (!response.ok) {
-        throw new Error(`fetch error: status: ${response.status}`);
+        throw new Error(`Fetch error! Status: ${response.status}`);
     }
 
     responseJson = await response.json();
@@ -220,6 +261,8 @@ async function main() {
     responseJson.forEach((element) => {
         getMemberCount(element.code)
     })
+
+    
 }
 
 main()

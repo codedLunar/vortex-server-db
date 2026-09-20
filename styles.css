@@ -2,6 +2,7 @@
 
 html, body {
     background-color: rgb(12, 12, 12);
+    overflow: hidden;
 }
 
 * {
@@ -16,7 +17,7 @@ h1, h2, h3, h4, h5, h6, p, a {
     font-size: 3rem;
     text-align: center;
 }
-.servers-container {
+.servers-container, .servers-container-loading {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 30px;
