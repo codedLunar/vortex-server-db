@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+    <title>Forum</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css"> <!-- we using water css for now ig -->
+</head>
+<body>
+    <form id="form" method="post" action="https://vortex-server-database-server-and-bot.onrender.com/submit">
+        <label>Username</label><br>
+        <input type="text" name="username" id="username"><br>
+        <label>Server Name</label><br>
+        <input type="text" name="servername" id="servername"><br>
+        <label>Explain your server here and give us the discord invite (Permanent)</label><br>
+        <textarea name="description" id="description"></textarea><br>
+        <button type="submit">Submit</button>
+    </form>
+    <p id="msg" style="display: none;">Success! You can view the submission's status with the following access code. Keep it safe and do not tell anybody about it: test123</p>
+    <a href="viewstatus.html">View Status Here</a>
+
+    <script>
+      const form = document.getElementById("form")
+
+      form.addEventListener("submit", async (event) => {
+        event.preventDefault();
+
+        const formData = new FormData(form);
+        const actualData = Object.fromEntries(formData.entries());
+
+        const respFetch = await fetch('https://vortex-server-database-server-and-bot.onrender.com/submit', {
+          method: 'POST',
+          headers: {'Content-Type': 'application/json'},
+          body: JSON.stringify(actualData)
+        })
+
+        const resp = await respFetch.json()
+
+        const msg = document.getElementById("msg")
+        msg.style.display = 'inline'
+        msg.textContent = `Success! You can view the submission's status with the following access code. Keep it safe and do not tell anybody about it: ${resp.access}`
+      })
+    </script>
+</body>

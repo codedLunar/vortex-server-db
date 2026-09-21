@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+    <title>Forum</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css"> <!-- water css for now -->
+</head>
+<body>
+    <form id="form" method="post" action="https://vortex-server-database-server-and-bot.onrender.com/view">
+        <label>Access Code</label><br>
+        <input type="text" name="accesscode" id="accesscode"><br>
+    </form>
+
+    <h2>Username</h2><br>
+    <p id="username">Load an Access Code</p><br>
+    <h2>Server Name</h2><br>
+    <p id="servername">Load an Access Code</p><br>
+    <h2>Description</h2>
+    <p id="desc">Load an Access Code</p>
+    <h2>Status</h2>
+    <p id="status">Load an Access Code</p>
+    <script>
+      const form = document.getElementById("form")
+
+      form.addEventListener("submit", async (event) => {
+        event.preventDefault();
+
+        const formData = new FormData(form);
+        const actualData = Object.fromEntries(formData.entries());
+
+        const respFetch = await fetch('https://vortex-server-database-server-and-bot.onrender.com/view', {
+          method: 'POST',
+          headers: {'Content-Type': 'application/json'},
+          body: JSON.stringify(actualData)
+        })
+
+        const resp = await respFetch.json()
+
+        console.log(resp)
+
+        const username = document.getElementById("username")
+        username.textContent = resp.data.username;
+
+        const serverName = document.getElementById("servername")
+        serverName.textContent = resp.data.server_name;
+
+        const description = document.getElementById("desc")
+        description.textContent = resp.data.description;
+
+        const status = document.getElementById("status")
+        let statustxt = resp.data.status === 0 ? "Not reviewed yet/In Review"
+                         : resp.data.status === 1 ? "Accepted"
+                         : resp.data.status === 2 ? "Declined"
+                         : "Unknown Status";
+        status.textContent = statustxt;
+      })
+    </script>
+</body>
