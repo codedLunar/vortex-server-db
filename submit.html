@@ -25,6 +25,9 @@
         const formData = new FormData(form);
         const actualData = Object.fromEntries(formData.entries());
 
+        document.getElementById("msg")
+        msg.textContent = "Submitting server.. this may take a minute or two as our server's are not the greatest, only exit out if it doesnt do anything for more than 5 minutes"
+          
         const respFetch = await fetch("https://vortex-server-database-server-and-bot.onrender.com/submit", {
             method: "POST",
             headers: {
