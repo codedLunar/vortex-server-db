@@ -28,6 +28,9 @@
         document.getElementById("msg")
         //msg.textContent = "Submitting server.. this may take a minute or two as our server's are not the greatest, only exit out if it doesnt do anything for more than 5 minutes"
 
+        alert("Submitting server.. this may take a minute or two as our server isnt the greatest and does sleep when idle. If you dont get a popup saying its done in more than 5 minutes, then something is wrong, so contact me on discord (@codedLunar) if so.")
+
+
         const respFetch = await fetch("https://vortex-server-database-server-and-bot.onrender.com/submit", {
             method: "POST",
             headers: {
@@ -35,8 +38,6 @@
             },
             body: JSON.stringify(actualData)
         });
-
-        alert("Submitting server.. this may take a minute or two as our server isnt the greatest and does sleep when idle. If you dont get a popup saying its done in more than 5 minutes, then something is wrong, so contact me on discord (@codedLunar) if so.")
 
         const resp = await respFetch.json();
 
