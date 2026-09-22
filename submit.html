@@ -26,8 +26,8 @@
         const actualData = Object.fromEntries(formData.entries());
 
         document.getElementById("msg")
-        msg.textContent = "Submitting server.. this may take a minute or two as our server's are not the greatest, only exit out if it doesnt do anything for more than 5 minutes"
-          
+        //msg.textContent = "Submitting server.. this may take a minute or two as our server's are not the greatest, only exit out if it doesnt do anything for more than 5 minutes"
+
         const respFetch = await fetch("https://vortex-server-database-server-and-bot.onrender.com/submit", {
             method: "POST",
             headers: {
@@ -36,16 +36,21 @@
             body: JSON.stringify(actualData)
         });
 
+        alert("Submitting server.. this may take a minute or two as our server isnt the greatest and does sleep when idle. If you dont get a popup saying its done in more than 5 minutes, then something is wrong, so contact me on discord (@codedLunar) if so.")
+
         const resp = await respFetch.json();
 
         if (respFetch.status === 429) {
             alert("You are being rate limited. You may only send 5 submissions per hour.");
             return;
+        } else {
+            alert("You are going to get your access code now! Some quick reminders: You will only see this access code ONCE, and there is no way to recover it if you do not save it. Access codes should be treated like passwords. They should be kept private, secure, and written down somewhere safe. We don't do accounts, instead we do these access codes to be able to view the status (and possibly in the future) edit the submission and talk to the reviewer. If you are streaming/recording right now, its best to pause your screen, click okay, copy the access code, click okay again to hide it, and then continue. You can get your access code by clicking next.");
+            alert(`Your access code is: ${resp.access}`) 
         }
 
         const msg = document.getElementById("msg")
-        msg.style.display = 'inline'
-        msg.textContent = `Success! You can view the submission's status with the following access code. Keep it safe and do not tell anybody about it: ${resp.access}`
+        //msg.style.display = 'inline'
+        //msg.textContent = `Success! You can view the submission's status with the following access code. Keep it safe and do not tell anybody about it: ${resp.access}`
       })
     </script>
 </body>
