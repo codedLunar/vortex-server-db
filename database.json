@@ -76,7 +76,7 @@
     "name": "The Blue Republic (Blue Union)",
     "description": "A democratic clan started on the game Vortex, committed to freedom of speech, free travel, and active governance",
     "ownerName": "TheBlueGuy",
-    "memberCount": 123,
+    "memberCount": 126,
     "icon": "https://cdn.discordapp.com/icons/1532084827954872552/92589c3fb34060b28754e16abecc98c8.png?size=256"
   },
   {
@@ -223,7 +223,7 @@
     "code": "PpPxZgH8k2",
     "name": "PRODEF | BORN™",
     "description": "PRODEF is a private military and development organization operating under BORN™. Built for those who seek discipline, progression, and excellence, PRODEF combines military operations with development to establish a leading presence within the Vortex community.",
-    "memberCount": 44,
+    "memberCount": 43,
     "icon": "https://cdn.discordapp.com/icons/1537415250444558466/13dc436b0e10fcd3dea98757b046f31a.png?size=256"
   },
   {
@@ -237,7 +237,7 @@
     "code": "rSpDB4sbtE",
     "name": "RESEARCHERS OF VORTEXIA!",
     "description": "We LOVE anomalies",
-    "memberCount": 58,
+    "memberCount": 59,
     "icon": "https://cdn.discordapp.com/icons/1532894672031318116/67c3a2e441a041ca72d4562290cc0c8d.png?size=256"
   },
   {
@@ -533,7 +533,7 @@
     "code": "cntZYBTkGg",
     "name": "Vortex olympics",
     "description": null,
-    "memberCount": 15,
+    "memberCount": 14,
     "icon": "https://cdn.discordapp.com/icons/1540925763631587439/7e93f68f069ebdbf264098e1edd040c0.png?size=256"
   },
   {
@@ -748,15 +748,31 @@
     "icon": "https://cdn.discordapp.com/icons/1540138464626872370/5df6e67eb6fc7381baee2eee26000807.png?size=256"
   },
   {
-    "code": "JXe7fQuyXh"
+    "code": "JXe7fQuyXh",
+    "name": "The Ancient Empire [Gnomes and Zorps]",
+    "description": "The ancient races-we were here before vortexians",
+    "memberCount": 7,
+    "icon": "https://cdn.discordapp.com/icons/1536063360661979138/62749f02035f8788ba9533a5090b9d78.png?size=256"
   },
   {
-    "code": "tBXF8z6Rn"
+    "code": "tBXF8z6Rn",
+    "name": "The Blue People's Party (VORTEX)",
+    "description": null,
+    "memberCount": 5,
+    "icon": "https://cdn.discordapp.com/icons/1535023232145559736/755876966e761e7f0b9398ce7ce3b5e5.png?size=256"
   },
   {
-    "code": "n4Ur3Ettqm"
+    "code": "n4Ur3Ettqm",
+    "name": "The Blue Statistics Bureau (BSB)",
+    "description": null,
+    "memberCount": 3,
+    "icon": "https://cdn.discordapp.com/icons/1545456889335128094/731a53c5b6b48a59b8bcfa2074747c65.png?size=256"
   },
   {
-    "code": "jdtPDMm9ZP"
+    "code": "jdtPDMm9ZP",
+    "name": "Vortex Obbyists",
+    "description": "We play Vortex Obbies alot.",
+    "memberCount": 33,
+    "icon": "https://cdn.discordapp.com/icons/1543506215894523994/26df0672f9eda651ac62996f35679fdc.png?size=256"
   }
 ]
