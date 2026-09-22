@@ -1,5 +1,3 @@
-let responseJson;
-
 async function sort_members() {
     // this function assumes the groups have already been created
     const serversContainer = document.querySelector(".servers-container")
@@ -220,7 +218,7 @@ async function getMemberCount(inviteCode) {
 
     try {
 
-        const data = responseJson.find(item => item.code === inviteCode);
+        const data = db.find(item => item.code === inviteCode);
 
         grp_card_name.textContent = data.name
         grp_card_members.textContent = `${data.memberCount} Members`
@@ -228,14 +226,66 @@ async function getMemberCount(inviteCode) {
         page_link.href = `https://www.discord.gg/${data.code}`
         grp_card_owner.textContent = data.ownerName
 
-
         grp_card_icon.src = data.icon
+
+        let clone = grp_card.cloneNode(true)
+
+        document.querySelector(".servers-container-cache").append(clone)
 
     } catch (error) {
         console.error('Error fetching member count:', error);
     }
 
     sort_members();
+}
+
+async function reset() {
+  [... document.querySelector(".servers-container-cache").children].forEach((cachedserver) => {
+    let clone = cachedserver.cloneNode(true)
+    clone.style.opacity = 0;
+    document.querySelector(".servers-container").append(clone);
+    setTimeout(() => { clone.style.opacity = 1 }, 150)
+  })
+};
+
+async function search() {
+
+  let search_input = document.querySelector("#search-input")
+
+  if (search_input.value.trim() == "") {
+    [... document.querySelector(".servers-container").children].forEach((server) => { server.remove() });
+    
+    reset();
+    return;
+  }
+
+  let match = false;
+  let stay_names = [];
+
+  [... document.querySelector(".servers-container").children].forEach((server) => {
+
+    server.style.opacity = '1'
+
+    let query = server.querySelector(".grp-card-name").textContent.toLowerCase().trim();
+
+    console.log(`query:`,query)
+
+    if (query.includes(search_input.value.toLowerCase().trim())) {
+      setTimeout(() => {
+match = true;
+      stay_names.push(query);
+      document.querySelector(".servers-container").prepend(server)
+      }, 150)
+    } else {
+      server.style.opacity = '0'
+    }
+
+    console.log("stay children", stay_names);
+
+  })
+
+
+
 }
 
 let db;
@@ -248,21 +298,17 @@ async function getDB() {
 
 async function main() {
 
-    const response = await fetch("https://codedlunar.github.io/vortex-server-db/database.json");
-        
-    if (!response.ok) {
-        throw new Error(`Fetch error! Status: ${response.status}`);
+    if (!db) {
+      await getDB()
     }
 
-    responseJson = await response.json();
-
-    await getDB()
-
-    responseJson.forEach((element) => {
+    db.forEach((element) => {
         getMemberCount(element.code)
     })
-
-    
 }
 
 main()
+
+document.querySelector("#search-input").addEventListener('input', (e) => {
+      search();
+    });

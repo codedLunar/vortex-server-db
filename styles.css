@@ -46,6 +46,10 @@ h1, h2, h3, h4, h5, h6, p, a {
     flex-direction: column;
 }
 
+.grp-card {
+    transition: opacity 0.15s !important;
+}
+
 .server img {
     flex: 0 0 150px;
     width: 150px;
@@ -72,4 +76,25 @@ h1, h2, h3, h4, h5, h6, p, a {
     overflow-wrap: normal;
     word-break: normal;
     white-space: normal;
+}
+
+.navbar-search {
+    background-color: #171020;
+    border: 1px solid rgb(36, 36, 47);
+    border-radius: 8px;
+    height: 50px;
+    width: 500px;
+    margin: auto;
+    margin-bottom: auto;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+#search-input {
+    width: 100%;
+    text-align: center;
+    border: none;
+    outline: none;
+    background: none;
+    color: aliceblue;
 }
