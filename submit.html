@@ -33,7 +33,7 @@
 
         const resp = await respFetch.json()
 
-        if (resp.status === "429") {
+        if (resp.status === 429) {
             alert("You are being rate limited. You may only send 5 submissions per hour.");
         }
 
