@@ -2,7 +2,7 @@ name: UpdateServerData
 
 on:
   schedule:
-    - cron: '0 * * * *'
+    - cron: '36 * * * *'
   workflow_dispatch:
 
 jobs:
