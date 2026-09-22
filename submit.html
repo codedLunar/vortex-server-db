@@ -25,17 +25,21 @@
         const formData = new FormData(form);
         const actualData = Object.fromEntries(formData.entries());
 
-        const respFetch = await fetch('https://vortex-server-database-server-and-bot.onrender.com/submit', {
-          method: 'POST',
-          headers: {'Content-Type': 'application/json'},
-          body: JSON.stringify(actualData)
-        })
+        const respFetch = await fetch(YOUR_URL, {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(actualData)
+        });
 
-        const resp = await respFetch.json()
+        const resp = await respFetch.json();
 
-        if (resp.status === 429) {
+        if (respFetch.status === 429) {
             alert("You are being rate limited. You may only send 5 submissions per hour.");
+            return;
         }
+
 
         const msg = document.getElementById("msg")
         msg.style.display = 'inline'
