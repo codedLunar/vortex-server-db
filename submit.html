@@ -25,7 +25,7 @@
         const formData = new FormData(form);
         const actualData = Object.fromEntries(formData.entries());
 
-        const respFetch = await fetch(YOUR_URL, {
+        const respFetch = await fetch("https://vortex-server-database-server-and-bot.onrender.com/submit", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
@@ -39,7 +39,6 @@
             alert("You are being rate limited. You may only send 5 submissions per hour.");
             return;
         }
-
 
         const msg = document.getElementById("msg")
         msg.style.display = 'inline'
