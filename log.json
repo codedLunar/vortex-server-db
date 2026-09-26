@@ -1,1 +1,788 @@
-[]
+[
+  {
+    "timestamp": "2026-09-26T08:20:16.210Z",
+    "data": [
+      {
+        "code": "qCrH58ZGNm",
+        "name": "VORTEX | BUSH CLUB",
+        "description": "WE BUSH. WE HATE WALL PEOPLE!!!! (MOST POPULAR VORTEX CLAN!!)",
+        "ownerName": "Chips/Dyna",
+        "memberCount": 396,
+        "icon": "https://cdn.discordapp.com/icons/1529751422919377009/a_6d41811cc3c677f67e1c65600d28233c.png?size=256"
+      },
+      {
+        "code": "6Yywt9UcAd",
+        "name": "Trepidation",
+        "description": "Trepidation is an 8v1 fast paced parkour Asym game on vortex based of Outcome memories and PWNed by 14:00",
+        "ownerName": "Iamcooldudewee",
+        "memberCount": 235,
+        "icon": "https://cdn.discordapp.com/icons/1523754331248267264/7654556d8d2c968203427345de6cc74b.png?size=256"
+      },
+      {
+        "code": "HvFge2nNnT",
+        "name": "Vortex Mafia",
+        "description": "The OFFICIAL server for the Vortex Mafia (VM), with events and more!",
+        "ownerName": "SharpRust",
+        "memberCount": 224,
+        "icon": "https://cdn.discordapp.com/icons/1530994909371301980/86687c22d1119998b86657ffc94ea6ee.png?size=256"
+      },
+      {
+        "code": "Ean9QpxEZM",
+        "name": "The Omniscient Empire",
+        "description": "The Omniscient Empire is going to be the Strongest Vortex Clan!!! Just join already my dudes LONG LIVE THE EMPIRE AND VORTEX!",
+        "ownerName": "TheOverseer",
+        "memberCount": 220,
+        "icon": "https://cdn.discordapp.com/icons/1530627306404581490/3c5194c8b408c0dedf5c878bd3cfd375.png?size=256"
+      },
+      {
+        "code": "UNeSHq3Rq4",
+        "name": "TGP'S Server",
+        "description": "we make the world just that little bit more purple :)",
+        "ownerName": "Totally Not MiaTGP",
+        "memberCount": 214,
+        "icon": "https://cdn.discordapp.com/icons/1529864571224068179/e9c76db7b1a273b56271b47a116cb349.png?size=256"
+      },
+      {
+        "code": "vortiety",
+        "name": "Vortiety",
+        "description": "unofficial home of the vortex community. Better Vortex [BTV] Web Extension and our goofy little bot, Vortexian.",
+        "ownerName": "Renzo",
+        "memberCount": 152,
+        "icon": "https://cdn.discordapp.com/icons/1517274041910694038/a_19adc4818ca91d846a61a8b529917ce0.png?size=256"
+      },
+      {
+        "code": "p2ZAr74DVc",
+        "name": "The Vortex Complex",
+        "description": "The place for all clans and members of Vortex to unite! We have a Congress Of Vortex that solves issues in the community and forwards it to the devs. This server hosts VortexCon 2026, The Vortex Gameshow, and so much more! Join for a chance for YOU to be heard.",
+        "ownerName": "Brainy",
+        "memberCount": 173,
+        "icon": "https://cdn.discordapp.com/icons/1533635162204536902/ae8c175cc9ea334ffaec0e8584a6bfbd.png?size=256"
+      },
+      {
+        "code": "yYQkJhsKWA",
+        "name": "Vortex SMP!",
+        "description": "Welcome to the official Vortex SMP! -",
+        "ownerName": "Xenix",
+        "memberCount": 129,
+        "icon": "https://cdn.discordapp.com/icons/1524082437175513139/4b3ec5fd48b6ef265d126e6e0e0bd031.png?size=256"
+      },
+      {
+        "code": "sK9TXc9GnT",
+        "name": "State Of Noobia | SN",
+        "description": "The official discord community for the vortex group called Noobic Union. Founded in 2026 by BornOfficial.",
+        "ownerName": "BornPotato",
+        "memberCount": 95,
+        "icon": "https://cdn.discordapp.com/icons/1530491282601021450/b58c0ef0c6c14bf8685ca95ae956a68a.png?size=256"
+      },
+      {
+        "code": "87aFG5HYQD",
+        "name": "The Blue Republic (Blue Union)",
+        "description": "A democratic clan started on the game Vortex, committed to freedom of speech, free travel, and active governance",
+        "ownerName": "TheBlueGuy",
+        "memberCount": 133,
+        "icon": "https://cdn.discordapp.com/icons/1532084827954872552/92589c3fb34060b28754e16abecc98c8.png?size=256"
+      },
+      {
+        "code": "FkvETM7Rhr",
+        "name": "VoDevs",
+        "description": null,
+        "memberCount": 87,
+        "icon": "https://cdn.discordapp.com/icons/1526703518818373743/4b887d992e7a7db0267b55e02b54b500.png?size=256"
+      },
+      {
+        "code": "RTF4BRXwGP",
+        "name": "Mythtex",
+        "description": "We are Mythtex a community for solving myths/args and webseries on Vortex!",
+        "memberCount": 94,
+        "icon": "https://cdn.discordapp.com/icons/1525419461723688980/e041b8a87de40d0add346e571c1c167c.png?size=256"
+      },
+      {
+        "code": "NUYjX7RV8w",
+        "name": "RootDevs Studios",
+        "description": "Root Devs: we don't do it for the money or fame, simply for the Love of the game.",
+        "memberCount": 88,
+        "icon": "https://cdn.discordapp.com/icons/1531745053565779968/81e049cc81a38bb5803d62ce7ee69d3a.png?size=256"
+      },
+      {
+        "code": "3keBMVDWWV",
+        "name": "Bob Vortex Community",
+        "description": "A friendly community of Vortex players (game by halo). We like to talk daily and have fun playing the game together.",
+        "memberCount": 76,
+        "icon": "https://cdn.discordapp.com/icons/1529644409543458866/9abfe409bd1d0afc14d3f2a3fd66c62b.png?size=256"
+      },
+      {
+        "code": "jvEsvyjPvr",
+        "name": "erik2's wasteland",
+        "description": null,
+        "memberCount": 81,
+        "icon": "https://cdn.discordapp.com/icons/1522405337565630494/285b498074b4eb40cadb90702d418de0.png?size=256"
+      },
+      {
+        "code": "KaeDxNQhyZ",
+        "name": "VorTex News Channel",
+        "description": null,
+        "memberCount": 77,
+        "icon": "https://cdn.discordapp.com/icons/1530185856134938766/1cb02a1c8d4e753fd7ab120f03ed9f4a.png?size=256"
+      },
+      {
+        "code": "HfAgGbQ7uh",
+        "name": "Vortex Fancord",
+        "description": "Unofficial Vortex Discord server owned by Lofty and W.D. Grepgr! Linked with the Fan wiki!",
+        "memberCount": 84,
+        "icon": "https://cdn.discordapp.com/icons/1529977827858841620/140638595a3a58c6fa8f2253391e4263.png?size=256"
+      },
+      {
+        "code": "GCxFvQ6yAe",
+        "name": "🚗Car Clan!🚗",
+        "description": "We Are The Car Clan (CC) We Like To Drive Around In The Car In Vortexia And Go On Fun Roadtrips! :D                                                                                                                                      (Owned by theblockman and ollie)",
+        "ownerName": "Ollie & TheBlockMan",
+        "memberCount": 103,
+        "icon": "https://cdn.discordapp.com/icons/1542335563015659531/88c3f192b904075d54ccd87beb807ffe.png?size=256"
+      },
+      {
+        "code": "4b4MM2YXwn",
+        "name": "The Lime Green District",
+        "description": "Server for all things creative. Art, Voice acting, painting, sewing, photography or whatever you’d really like! As well as game nights (somewhat) often!",
+        "memberCount": 77,
+        "icon": "https://cdn.discordapp.com/icons/1531805561841258577/03297456190f88b6c592dfc7a880a425.png?size=256"
+      },
+      {
+        "code": "HeKBWb4Ns6",
+        "name": "CONE Gang | Vortex",
+        "description": "Cone Cone Cone Cone Cone Cone Cone Cone Cone Cone Cone Cone Cone Cone",
+        "memberCount": 56,
+        "icon": "https://cdn.discordapp.com/icons/1540397670554669138/7709684dc5e00fddbf8e6e28788d19af.png?size=256"
+      },
+      {
+        "code": "3bJ2WPWxUp",
+        "name": "Bubbol!",
+        "description": "Open-Source UGC Platform made in Godot",
+        "memberCount": 62,
+        "icon": "https://cdn.discordapp.com/icons/1514772976480817172/1ea51682bb0fd3217328561020c29131.png?size=256"
+      },
+      {
+        "code": "R7wqehyX95",
+        "name": "BLUE KINGDOM 👑",
+        "description": "A Vortex Clan/Kingdom Called Blue Kingdom !!!",
+        "memberCount": 50,
+        "icon": "https://cdn.discordapp.com/icons/1499058528097144922/c72850f01867fbcce13cbfc5795a4547.png?size=256"
+      },
+      {
+        "code": "5feGBN73R3",
+        "name": "Eye clan",
+        "description": "Eye sees eye knows eye hears",
+        "memberCount": 57,
+        "icon": "https://cdn.discordapp.com/icons/1530754112436703363/d360e68cb299e9a9021e76cbd6eb326c.png?size=256"
+      },
+      {
+        "code": "ZJ7kfQYWm3",
+        "name": "Vortex Speedrunning Community!",
+        "description": "The LARGEST server for VORTEX SPEEDRUNNING.",
+        "memberCount": 60,
+        "icon": "https://cdn.discordapp.com/icons/1536884015821365362/038cf8c54d14e0540eed60e7ec2955ec.png?size=256"
+      },
+      {
+        "code": "gcnmnf4d6F",
+        "name": "The Startup gang!",
+        "description": "start my ups",
+        "memberCount": 58,
+        "icon": "https://cdn.discordapp.com/icons/1530944480180572221/3e12c0f6ad899bdb71cf05a9195681e5.png?size=256"
+      },
+      {
+        "code": "72yFq6Met5",
+        "name": "The Great Vortexian union",
+        "description": null,
+        "memberCount": 50,
+        "icon": "https://cdn.discordapp.com/icons/1531643284097863721/6f360acf7c7adb39e026689f682a48d9.png?size=256"
+      },
+      {
+        "code": "N2sxPZmAub",
+        "name": "BlockMakers",
+        "description": "Welcome to BlockMakers! We make awesome videos with the community and everyone is welcomed! Feel free to socialize and make some new friends! Stay tuned for more Vortex Vids!",
+        "ownerName": "TheBlockMan",
+        "memberCount": 55,
+        "icon": "https://cdn.discordapp.com/icons/1503955269569482884/81fe4fad79aee2b2fe60ae705636a711.png?size=256"
+      },
+      {
+        "code": "W3QNcEVYJn",
+        "name": "VORTEX | Cheese Club :D",
+        "description": null,
+        "memberCount": 44,
+        "icon": "https://cdn.discordapp.com/icons/1531660048697262172/584e88d3247eea2ba19dd3de200d7d9a.png?size=256"
+      },
+      {
+        "code": "mY5nMVTZZh",
+        "name": "Vortex Event Committee (Unofficial)",
+        "description": "The Vortex Event Committee (Unofficial) is a community-run group dedicated to creating and organizing events for the Vortex community. We work together to plan fun, engaging, and well-organized events while giving members a place to share ideas, collaborate, and help bring new events to life!",
+        "memberCount": 36,
+        "icon": "https://cdn.discordapp.com/icons/1540599843880304690/8c02c0375efd285c6dff0e94354e8c26.png?size=256"
+      },
+      {
+        "code": "uytrKB5z6N",
+        "name": "Rift raiders clan",
+        "description": "We're that one chill clan",
+        "memberCount": 46,
+        "icon": "https://cdn.discordapp.com/icons/1534775438373556276/f8bcd1e22c5a9bda5022d585b4173b08.png?size=256"
+      },
+      {
+        "code": "PpPxZgH8k2",
+        "name": "PRODEF | BORN™",
+        "description": "PRODEF is a private military and development organization operating under BORN™. Built for those who seek discipline, progression, and excellence, PRODEF combines military operations with development to establish a leading presence within the Vortex community.",
+        "memberCount": 42,
+        "icon": "https://cdn.discordapp.com/icons/1537415250444558466/13dc436b0e10fcd3dea98757b046f31a.png?size=256"
+      },
+      {
+        "code": "BXVfYQynEk",
+        "name": "Redster Armada!",
+        "description": null,
+        "memberCount": 45,
+        "icon": "https://cdn.discordapp.com/icons/1536120667928272988/31e1d32cfd1a2363845734674343afa0.png?size=256"
+      },
+      {
+        "code": "rSpDB4sbtE",
+        "name": "RESEARCHERS OF VORTEXIA!",
+        "description": "We LOVE anomalies",
+        "ownerName": "Happy Elliot",
+        "memberCount": 61,
+        "icon": "https://cdn.discordapp.com/icons/1532894672031318116/67c3a2e441a041ca72d4562290cc0c8d.png?size=256"
+      },
+      {
+        "code": "yYTEBSAqFz",
+        "name": "The CloudKeepers",
+        "description": "A server for a Vortex clan based on Angel wings. Join if you are interested in becoming an \"angel\" or just wanna to check us out!!",
+        "memberCount": 56,
+        "icon": "https://cdn.discordapp.com/icons/1531481354200420522/035dce562ae2f94fa490bcb6a16e7ae9.png?size=256"
+      },
+      {
+        "code": "nKSXF6yKvf",
+        "name": "Army's Army",
+        "description": "Army's vortex server feel free to join :thumbs_up:",
+        "memberCount": 61,
+        "icon": "https://cdn.discordapp.com/icons/1534594398631755806/2096a5199238979e01e3eb8e24248a2d.png?size=256"
+      },
+      {
+        "code": "e7e724MDEq",
+        "name": "Mini Tower Mayhem - Vortex",
+        "description": null,
+        "ownerName": "kostas",
+        "memberCount": 46,
+        "icon": "https://cdn.discordapp.com/icons/1534720730078380044/e28e7eb3d33705c7e7205338366f1ece.png?size=256"
+      },
+      {
+        "code": "DNUGmG5skg",
+        "name": "Green Clan",
+        "description": "Created on June 9th 2026, we are one of the earliest clans of the game Vortex. We stand for Justice, Honesty, Fairness, And PROTECTING VORTEX! Join now and be green.",
+        "memberCount": 37,
+        "icon": "https://cdn.discordapp.com/icons/1513857612783812628/70df706f2cacb365f45f846c482d8ff9.png?size=256"
+      },
+      {
+        "code": "u7UsS72jrJ",
+        "name": "Vortaxis | VA",
+        "description": "Just a chill Clan",
+        "memberCount": 32,
+        "icon": "https://cdn.discordapp.com/icons/1538916668221169785/1878984fca562461eb86e5a6bfa63bb5.png?size=256"
+      },
+      {
+        "code": "wfTtFfzn3E",
+        "name": "The People's Neutral Group",
+        "description": "The Discord server for TPNG, a group based around the game Vortex!",
+        "memberCount": 34,
+        "icon": "https://cdn.discordapp.com/icons/1532394778283475025/07363e33bcc6009f9dcd2d7b500ba10a.png?size=256"
+      },
+      {
+        "code": "4sRXTTF6ZK",
+        "name": "NovaTex",
+        "description": null,
+        "memberCount": 37,
+        "icon": "https://cdn.discordapp.com/icons/1532842477525012590/ba13d065b79a3d5721d08f1d2e0955a5.png?size=256"
+      },
+      {
+        "code": "QrEkQNzcpq",
+        "name": "wing.cenᴛraʟ",
+        "description": "A small community dedicated to Vortex's obbies!",
+        "memberCount": 29,
+        "icon": "https://cdn.discordapp.com/icons/1542059845484679360/e26b83009fb0bd3e74bb3ee36d574590.png?size=256"
+      },
+      {
+        "code": "vRdenNrdgS",
+        "name": "The Vortex Republic",
+        "description": "The Vortex Republic discord server, which is basically just Vortex Complex but we are trying to annex all the clans into it directly",
+        "memberCount": 50,
+        "icon": "https://cdn.discordapp.com/icons/1539294213529931786/e31fe298914fa0b3d162061387c0e76c.png?size=256"
+      },
+      {
+        "code": "mV5Xq8MyTm",
+        "name": "Wire - Vortex Giveaways",
+        "description": null,
+        "memberCount": 55,
+        "icon": "https://cdn.discordapp.com/icons/1543834420618858576/20b31041f8fe69b46282427b0bbdb6d0.png?size=256"
+      },
+      {
+        "code": "8yRh8DQ64J",
+        "name": "THE COSMOS | STARNOVA COMMUNITY",
+        "description": null,
+        "memberCount": 31,
+        "icon": "https://cdn.discordapp.com/icons/1532379202861662243/eef95d79330d84f0fc82356b6daa6472.png?size=256"
+      },
+      {
+        "code": "PkruVBXEVw",
+        "name": "Vortexian Council of Nations",
+        "description": null,
+        "memberCount": 39,
+        "icon": "https://cdn.discordapp.com/icons/1533197802337996840/66ca729dbcb7747725445feec500f1c2.png?size=256"
+      },
+      {
+        "code": "M3B8ga7MR5",
+        "name": "VORTEX ASSETS",
+        "description": null,
+        "memberCount": 36,
+        "icon": null
+      },
+      {
+        "code": "qee6zAq9jT",
+        "name": "Bonzi Clan",
+        "description": null,
+        "ownerName": "Derek",
+        "memberCount": 26,
+        "icon": "https://cdn.discordapp.com/icons/1540693975243948093/bc11b5af3e524a5869af110c8dd4e010.png?size=256"
+      },
+      {
+        "code": "m9E3qWyGTT",
+        "name": "The Woes",
+        "description": "The ones from the void",
+        "memberCount": 23,
+        "icon": "https://cdn.discordapp.com/icons/1530645758603301064/82e4474305c6a6c545e15424ec15826a.png?size=256"
+      },
+      {
+        "code": "afnTQK74eq",
+        "name": "Lifers",
+        "description": null,
+        "memberCount": 24,
+        "icon": "https://cdn.discordapp.com/icons/1537253530862231623/fe799215484bba1840d1f9e554d999f5.png?size=256"
+      },
+      {
+        "code": "nN7cjgFfke",
+        "name": "BENJIUS INC.",
+        "description": null,
+        "memberCount": 30,
+        "icon": "https://cdn.discordapp.com/icons/1531705375022121080/e59a8ec91f4189b9e90c6080d8ee9e92.png?size=256"
+      },
+      {
+        "code": "KxgbPBMw5Q",
+        "name": "Banishment Community Server",
+        "description": "Official Banishment server!",
+        "memberCount": 27,
+        "icon": "https://cdn.discordapp.com/icons/1535033595029094514/4d2358a559b30537c975f2eb15b990ae.png?size=256"
+      },
+      {
+        "code": "6a5fbEC8fD",
+        "name": "Vortex Clan Ally Grounds | Talk & Chat!",
+        "description": "NOTICE: LARGE CLANS LIKE BUSH CLAN, REDSTER ARMADA, AND OTHERS ARE NOT HERE YET, JUST VORTEX MAFIA CURRENTLY.        Talk to large clans WITHOUT being in their server! (This is not meant to be a replacement of their servers, just so you can talk faster, and have easier contact.)",
+        "memberCount": 20,
+        "icon": "https://cdn.discordapp.com/icons/1543418868373004299/c45356f5666b844998e9e004c765a9a8.png?size=256"
+      },
+      {
+        "code": "WZedgnP2CN",
+        "name": "The Horned Clan [THC]",
+        "description": null,
+        "memberCount": 28,
+        "icon": "https://cdn.discordapp.com/icons/1541016819312365618/002b95070322622895393ad1187b1450.png?size=256"
+      },
+      {
+        "code": "XEUYuduKTg",
+        "name": "Will and Wood’s Burger Co.",
+        "description": null,
+        "ownerName": "Dorian/Melody",
+        "memberCount": 19,
+        "icon": "https://cdn.discordapp.com/icons/1525257289282359498/aee6027d420f10a17a19d0c43392bc7e.png?size=256"
+      },
+      {
+        "code": "CQbbYgaHyU",
+        "name": "Vortex Games",
+        "description": null,
+        "memberCount": 26,
+        "icon": "https://cdn.discordapp.com/icons/1541059029202239530/d74a3a8a1b8b6f5614f46c8c69b9147a.png?size=256"
+      },
+      {
+        "code": "VBaZF4BneZ",
+        "name": "Vortex Mafia : REUNITED",
+        "description": null,
+        "memberCount": 19,
+        "icon": "https://cdn.discordapp.com/icons/1545540924312911913/4286f220a71f96a2004e46360dddd35a.png?size=256"
+      },
+      {
+        "code": "bZdjWBn6AB",
+        "name": "THE CROSSROADERS",
+        "description": "WE ARE THE CROSSROADERS! We accept everyone, so you are welcome to join!",
+        "memberCount": 21,
+        "icon": "https://cdn.discordapp.com/icons/1530563286066659398/3ed1d38e7a2933f3c86c6a24525fd55d.png?size=256"
+      },
+      {
+        "code": "ztDdD9b2ru",
+        "name": "Lettuce GNG",
+        "description": null,
+        "memberCount": 22,
+        "icon": "https://cdn.discordapp.com/icons/1531211693106008144/2607825d55044a55de5164fcf08dd5ce.png?size=256"
+      },
+      {
+        "code": "GYFnPa8jtH",
+        "name": "The Purple Hoodies",
+        "description": "A fellow vortex gang",
+        "memberCount": 18,
+        "icon": "https://cdn.discordapp.com/icons/1530963151271628963/48daee6951e5fce8c41feeb30c5282e6.png?size=256"
+      },
+      {
+        "code": "vfr3KwFGBR",
+        "name": "Plad clan",
+        "description": "plad clan on vortex, maybe the first clan/group ever",
+        "memberCount": 25,
+        "icon": "https://cdn.discordapp.com/icons/1513321684310950059/a29a05d33948304c841b0bea27349df2.png?size=256"
+      },
+      {
+        "code": "KAwAyQguH7",
+        "name": "United States Armed Forces",
+        "description": "A community based around the group United States Armed Forces [USAF] on VORTEX",
+        "memberCount": 27,
+        "icon": "https://cdn.discordapp.com/icons/1539919593815154738/55b75b4dae12277bad9adaafce62d9c8.png?size=256"
+      },
+      {
+        "code": "FCttxrdEVz",
+        "name": "Blue Vortex",
+        "description": "a Vortex Clan That Likes The COLOR Blue.",
+        "memberCount": 19,
+        "icon": "https://cdn.discordapp.com/icons/1532778438203670548/f1d224512f4340280bac7b90a662a88c.png?size=256"
+      },
+      {
+        "code": "JKtBE35n2F",
+        "name": "blue gang server",
+        "description": null,
+        "memberCount": 23,
+        "icon": "https://cdn.discordapp.com/icons/1532143657329754342/8f13105807fa12d4a557bad7627d7642.png?size=256"
+      },
+      {
+        "code": "YGzAPjcVg6",
+        "name": "ECIV (EPIC individuals)™",
+        "description": null,
+        "memberCount": 24,
+        "icon": "https://cdn.discordapp.com/icons/1534221296613724221/f3eca48291694c2ce1272e6efd5f0dd7.png?size=256"
+      },
+      {
+        "code": "fvxZ44Jrh6",
+        "name": "The Galactic Republic",
+        "description": null,
+        "memberCount": 10,
+        "icon": "https://cdn.discordapp.com/icons/1538217556899537017/702500eb535094a104df3bc91ed7c649.png?size=256"
+      },
+      {
+        "code": "MATGKJFAt5",
+        "name": "The Canastra Strata | VORTEX",
+        "description": null,
+        "memberCount": 10,
+        "icon": "https://cdn.discordapp.com/icons/1534576884086734868/170c6853d1c46883be20da2484417a87.png?size=256"
+      },
+      {
+        "code": "ztDzbEtkXZ",
+        "name": "green vortex",
+        "description": null,
+        "memberCount": 15,
+        "icon": "https://cdn.discordapp.com/icons/1533183400784167132/57c527ce41bb5937f91b3a76f6a735c4.png?size=256"
+      },
+      {
+        "code": "DY9RU4bbjT",
+        "name": "TV Clan - Vortex",
+        "description": null,
+        "memberCount": 18,
+        "icon": "https://cdn.discordapp.com/icons/1539321518906019850/817a7941eae29edf817ee6e0143bdd13.png?size=256"
+      },
+      {
+        "code": "7vUw6jjccX",
+        "name": "I WANNA TEST THAT VORTEX!",
+        "description": null,
+        "memberCount": 13,
+        "icon": "https://cdn.discordapp.com/icons/1533812627984355508/91c832e126a7af828d8224268f7f6064.png?size=256"
+      },
+      {
+        "code": "hMUerPzxxJ",
+        "name": "Blue Syndicate",
+        "description": null,
+        "memberCount": 11,
+        "icon": "https://cdn.discordapp.com/icons/1537579111294308423/8413284bd7a584c191564f0522cd4baf.png?size=256"
+      },
+      {
+        "code": "xmP59Ty5YY",
+        "name": "Tex pirates",
+        "description": "if you want to be free from your group leaders or board, then become a Tex pirate member where you can do whatever you want without anyone telling you what to do",
+        "ownerName": "Foxen The Pirate",
+        "memberCount": 15,
+        "icon": "https://cdn.discordapp.com/icons/1544513593247141948/81b3388815edc13a4d0aa4578ca3b86c.png?size=256"
+      },
+      {
+        "code": "nHp7hjeYK7",
+        "name": "Crystal Collecting",
+        "description": null,
+        "memberCount": 13,
+        "icon": "https://cdn.discordapp.com/icons/1510753612547100834/aeacdf597595033865d7d5a27885bb2d.png?size=256"
+      },
+      {
+        "code": "3QVSpwe4Ad",
+        "name": "The Sea Shanties",
+        "description": null,
+        "memberCount": 15,
+        "icon": "https://cdn.discordapp.com/icons/1531429076865257673/5775c4c6377bacf3b224da7e5aa9c545.png?size=256"
+      },
+      {
+        "code": "PbcXKDAuYt",
+        "name": "THE JEREMYS!!!",
+        "description": null,
+        "memberCount": 16,
+        "icon": "https://cdn.discordapp.com/icons/1529738261692416010/b29b0419e8ee2a417e6627de1c25b36c.png?size=256"
+      },
+      {
+        "code": "cntZYBTkGg",
+        "name": "Vortex olympics",
+        "description": null,
+        "memberCount": 14,
+        "icon": "https://cdn.discordapp.com/icons/1540925763631587439/7e93f68f069ebdbf264098e1edd040c0.png?size=256"
+      },
+      {
+        "code": "B3uGXbTRmJ",
+        "name": "Tux Gang",
+        "description": null,
+        "memberCount": 9,
+        "icon": "https://cdn.discordapp.com/icons/1532603234009743440/1c023a5dabef2c0a083b28a57d1bec8e.png?size=256"
+      },
+      {
+        "code": "qXZcqjcxVe",
+        "name": "❄ The Snowy Peak Climbers | Vortex",
+        "description": null,
+        "memberCount": 17,
+        "icon": "https://cdn.discordapp.com/icons/1533174330345652366/4042cce4df06401dc460eeba9fa74043.png?size=256"
+      },
+      {
+        "code": "jM7Nzx5WRV",
+        "name": "COOL CLAN!!!",
+        "description": null,
+        "memberCount": 15,
+        "icon": "https://cdn.discordapp.com/icons/1513336010388410450/e1ac7a3a8247003235a67603a04210a3.png?size=256"
+      },
+      {
+        "code": "TD5yVFw7cn",
+        "name": "[ARCHIVED] Vortexia Community Hub",
+        "description": null,
+        "memberCount": 12,
+        "icon": "https://cdn.discordapp.com/icons/1520176153577394359/47373ffa59f2075776c321f85d483199.png?size=256"
+      },
+      {
+        "code": "C8H2bvK3mr",
+        "name": "La famille du costume violet",
+        "description": "Server for le purple suit famila",
+        "memberCount": 18,
+        "icon": "https://cdn.discordapp.com/icons/1529704158330884096/85d530fb154bac32d8adad761942e317.png?size=256"
+      },
+      {
+        "code": "4ZFmV5vT98",
+        "name": "life cavs",
+        "description": "the cavs",
+        "memberCount": 11,
+        "icon": "https://cdn.discordapp.com/icons/1537842760961232976/341c2e7ac8761a6693e6c66713ffc378.png?size=256"
+      },
+      {
+        "code": "AdQ3gVxZvr",
+        "name": "Dirk's Cool Basement",
+        "description": null,
+        "memberCount": 22,
+        "icon": "https://cdn.discordapp.com/icons/1548264064277291052/833ec857a58e5eeac767ee9e26519d86.png?size=256"
+      },
+      {
+        "code": "ssxrpuCVfg",
+        "name": "Musicians of The Worldsong",
+        "description": null,
+        "memberCount": 6,
+        "icon": "https://cdn.discordapp.com/icons/1532018515861704726/67d38ed62de8ba2f9ed5e9292edb99c8.png?size=256"
+      },
+      {
+        "code": "zdegvtk3hQ",
+        "name": "💥𝕰𝕸𝕻𝕴𝕽𝕰 𝕳𝕺𝕿𝕯𝕺𝕲💥",
+        "description": null,
+        "memberCount": 6,
+        "icon": "https://cdn.discordapp.com/icons/1499115064941088819/514b2a792d68b0e9893c50d0b7d1c66c.png?size=256"
+      },
+      {
+        "code": "aHha4xddm9",
+        "name": "MAYONNAISE CLAN",
+        "description": "mayo",
+        "memberCount": 2,
+        "icon": "https://cdn.discordapp.com/icons/1534602066515988601/8ac39b1c2984bd14a4b903e1844ec9c1.png?size=256"
+      },
+      {
+        "code": "BeDttwPh5K",
+        "name": "Sick Skating Clan!",
+        "description": "Heya! we are a vortex group centered on skating ! why ? because it's sick",
+        "memberCount": 8,
+        "icon": "https://cdn.discordapp.com/icons/1540393841981526086/f6a22e6aff41d1fefd09c795321dedb9.png?size=256"
+      },
+      {
+        "code": "K5SMuzpWZV",
+        "name": "SOURCE.dev",
+        "description": null,
+        "memberCount": 9,
+        "icon": "https://cdn.discordapp.com/icons/1544117525250445352/ecffc96ae9101c5fd01a52dc86ddd5f3.png?size=256"
+      },
+      {
+        "code": "8zkb7jzsJq",
+        "name": "Project Funkin",
+        "description": "A vortex fnf game for vortex funkheads",
+        "memberCount": 5,
+        "icon": "https://cdn.discordapp.com/icons/1538255499462447204/183d20458550a3c0b104498f42c6d1d3.png?size=256"
+      },
+      {
+        "code": "pK9Mj4m2V5",
+        "name": "The Union",
+        "description": null,
+        "memberCount": 6,
+        "icon": "https://cdn.discordapp.com/icons/1539391183430877285/1527aa263dda62f8397711a2cab18abf.png?size=256"
+      },
+      {
+        "code": "KK5aN23kn6",
+        "name": "Vortex Central",
+        "description": "The trusted News Source of Vortex.",
+        "memberCount": 4,
+        "icon": "https://cdn.discordapp.com/icons/1532079222070317126/7681892e20f29c42585d1ab6a9af5054.png?size=256"
+      },
+      {
+        "code": "8gba5s5T8t",
+        "name": "Smgidk's merch making for clans",
+        "description": null,
+        "memberCount": 5,
+        "icon": "https://cdn.discordapp.com/icons/1539534306613923861/e04bb4b15b33f2443e95ec6285b32d0c.png?size=256"
+      },
+      {
+        "code": "mjYTQ9getC",
+        "name": "The Blue Vortex (TBV)",
+        "description": "We Are A Clan That Likes The Color Blue!!!!!",
+        "memberCount": 6,
+        "icon": "https://cdn.discordapp.com/icons/1538647369137266740/287a3ea48600b6b55428126389e89fcf.png?size=256"
+      },
+      {
+        "code": "cgR9gYAWqu",
+        "name": "Clan name",
+        "description": "Clan description (btw this clan is a joke, not a real one)",
+        "memberCount": 3,
+        "icon": "https://cdn.discordapp.com/icons/1539287071955615946/23c7a276a1854c74847dce6495d3910e.png?size=256"
+      },
+      {
+        "code": "wmbnudPHyk",
+        "name": "blue umbrella gang",
+        "description": "the official server of the vortex gang, B.U.G",
+        "memberCount": 5,
+        "icon": null
+      },
+      {
+        "code": "vt4wJcumsc",
+        "name": "Titanium Studios",
+        "description": "Titanium studios, the STRONGEST studio.",
+        "memberCount": 11,
+        "icon": "https://cdn.discordapp.com/icons/1541085389748699136/c4973ceec502a9ece873014f604da257.png?size=256"
+      },
+      {
+        "code": "thdP9SkYQu",
+        "name": "Power Outage",
+        "description": "Just a bad copy of flicker",
+        "memberCount": 5,
+        "icon": "https://cdn.discordapp.com/icons/1533429993491927070/dd77d3ed0c3259c9e53f6786dbd5ecd1.png?size=256"
+      },
+      {
+        "code": "8fnV53eea7",
+        "name": "Grocery gang",
+        "description": "This is the official server for the Grocery Gang clan. Here we do stuff and Idrk Don't ask me.",
+        "memberCount": 4,
+        "icon": "https://cdn.discordapp.com/icons/1530568033586909386/60fe952f1f178f6d3d0f86f19ccdb892.png?size=256"
+      },
+      {
+        "code": "CPBXfcRaB9",
+        "name": "The Garden",
+        "description": null,
+        "memberCount": 9,
+        "icon": "https://cdn.discordapp.com/icons/1532476568780144840/da70f4ea1af02f144e1c74e6eb092b86.png?size=256"
+      },
+      {
+        "code": "9aF3acys5M",
+        "name": "Pancak3 Club",
+        "description": "The official server for vortex Pancak3 Club",
+        "memberCount": 11,
+        "icon": "https://cdn.discordapp.com/icons/1530439618770636890/f09abbbedd87ce17a61256005d200abe.png?size=256"
+      },
+      {
+        "code": "bUMaDPJaYE",
+        "name": "The Everythings",
+        "description": null,
+        "memberCount": 7,
+        "icon": "https://cdn.discordapp.com/icons/1544778953531719836/a1f62fa3972cfd25308b2625b0a7620e.png?size=256"
+      },
+      {
+        "code": "F2tXXZCgbC",
+        "name": "Pancake Throwers",
+        "description": null,
+        "memberCount": 4,
+        "icon": "https://cdn.discordapp.com/icons/1542208389155786774/e0c6ab6f39697cf540efdf91080e1dd1.png?size=256"
+      },
+      {
+        "code": "DWsJnkex3u",
+        "name": "the golden vortex mafia",
+        "description": "the golden vortex mafia from the game vortex",
+        "memberCount": 5,
+        "icon": "https://cdn.discordapp.com/icons/1530610069551583404/fe2a62ebae4d25980f58e7a5587d9bfe.png?size=256"
+      },
+      {
+        "code": "TnkN45hreb",
+        "name": "VCN | Vortex News",
+        "description": null,
+        "memberCount": 6,
+        "icon": "https://cdn.discordapp.com/icons/1543531635717443685/59cbb3570edfb8b48401542ddce4f900.png?size=256"
+      },
+      {
+        "code": "CSMqwRF6Sw",
+        "name": "Fat Cheetos",
+        "description": "Welcome to Fat Cheetos, our own game studio!!",
+        "memberCount": 9,
+        "icon": "https://cdn.discordapp.com/icons/1545259504113942612/b5281aaf4f9ae6f000e301521de17685.png?size=256"
+      },
+      {
+        "code": "MdcNGCvxEj",
+        "name": "VoPro",
+        "description": "Official server for VoPro, and just hanging out! VoPro is a Vortex extension that enhances the styles of the website and makes it look more colorful, with more features, and more themes!",
+        "ownerName": "codedLunar",
+        "memberCount": 28,
+        "icon": "https://cdn.discordapp.com/icons/1540138464626872370/5df6e67eb6fc7381baee2eee26000807.png?size=256"
+      },
+      {
+        "code": "JXe7fQuyXh",
+        "name": "The Ancient Empire [Gnomes and Zorps]",
+        "description": "The ancient races-we were here before vortexians",
+        "memberCount": 7,
+        "icon": "https://cdn.discordapp.com/icons/1536063360661979138/62749f02035f8788ba9533a5090b9d78.png?size=256"
+      },
+      {
+        "code": "tBXF8z6Rn",
+        "name": "The Blue People's Party (VORTEX)",
+        "description": null,
+        "memberCount": 5,
+        "icon": "https://cdn.discordapp.com/icons/1535023232145559736/755876966e761e7f0b9398ce7ce3b5e5.png?size=256"
+      },
+      {
+        "code": "n4Ur3Ettqm",
+        "name": "The Blue Statistics Bureau (BSB)",
+        "description": null,
+        "memberCount": 3,
+        "icon": "https://cdn.discordapp.com/icons/1545456889335128094/731a53c5b6b48a59b8bcfa2074747c65.png?size=256"
+      },
+      {
+        "code": "jdtPDMm9ZP",
+        "name": "Vortex Obbyists",
+        "description": "We play Vortex Obbies alot.",
+        "memberCount": 33,
+        "icon": "https://cdn.discordapp.com/icons/1543506215894523994/26df0672f9eda651ac62996f35679fdc.png?size=256"
+      }
+    ]
+  }
+]
