@@ -292,7 +292,7 @@ let db;
 
 async function getDB() {
     // gotta use an async function because no await in global js
-    let resp = await fetch("https://codedlunar.github.io/vortex-server-db/database.json");
+    let resp = await fetch("https://www.vortexserverdb.org/database.json");
     db = await resp.json()
 }
 
