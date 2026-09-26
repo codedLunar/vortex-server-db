@@ -47,7 +47,7 @@ async function updateStats() {
             }
 
             // wait because im deathly scared of rate limits (aka i error)
-            await new Promise(resolve => setTimeout(resolve, 3000));
+            await new Promise(resolve => setTimeout(resolve, 1000));
         }
 
         await fs.writeFile('database.json', JSON.stringify(db, null, 2));
