@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  update-stats:
+  log-db:
     runs-on: ubuntu-latest
 
     permissions:
