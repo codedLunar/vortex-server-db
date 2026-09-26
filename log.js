@@ -17,7 +17,7 @@ async function logDatabase() {
 
         db.push(newObject)
 
-        await fs.writeFile('log.json', JSON.stringify(db, null, 2));
+        await fs.writeFile('log.json', db);
         console.log("(4/4) i successfully did my job now i can rest yaya")
     } catch (error) {
         console.error("very bad error, me (Mr update bot) could not log the servers. heres why: ", error)
