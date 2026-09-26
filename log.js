@@ -6,7 +6,9 @@ async function logDatabase() {
     try {
         // get the invites data (such a great variable name i know)
         const databaseData = await fs.readFile('database.json', 'utf8')
-        let db = JSON.parse(databaseData)
+        const logData = await fs.readFile('log.json', 'utf8')
+
+        const db = JSON.parse(logData);
 
         let newObject = {
             "timestamp": new Date().toISOString(),
