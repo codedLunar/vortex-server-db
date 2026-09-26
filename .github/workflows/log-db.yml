@@ -22,7 +22,7 @@ jobs:
           node-version: '20'
 
       - name: run main
-        run: node update.js
+        run: node log.js
 
       - name: add updated db
         run: |
