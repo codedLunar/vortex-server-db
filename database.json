@@ -28,7 +28,7 @@
     "name": "The Omniscient Empire",
     "description": "The Omniscient Empire is going to be the Strongest Vortex Clan!!! Just join already my dudes LONG LIVE THE EMPIRE AND VORTEX!",
     "ownerName": "TheOverseer",
-    "memberCount": 220,
+    "memberCount": 221,
     "icon": "https://cdn.discordapp.com/icons/1530627306404581490/3c5194c8b408c0dedf5c878bd3cfd375.png?size=256"
   },
   {
@@ -204,7 +204,7 @@
     "code": "W3QNcEVYJn",
     "name": "VORTEX | Cheese Club :D",
     "description": null,
-    "memberCount": 45,
+    "memberCount": 46,
     "icon": "https://cdn.discordapp.com/icons/1531660048697262172/584e88d3247eea2ba19dd3de200d7d9a.png?size=256"
   },
   {
@@ -566,7 +566,7 @@
     "code": "TD5yVFw7cn",
     "name": "[ARCHIVED] Vortexia Community Hub",
     "description": null,
-    "memberCount": 12,
+    "memberCount": 14,
     "icon": "https://cdn.discordapp.com/icons/1520176153577394359/47373ffa59f2075776c321f85d483199.png?size=256"
   },
   {
@@ -781,6 +781,10 @@
     "icon": "https://cdn.discordapp.com/icons/1543506215894523994/26df0672f9eda651ac62996f35679fdc.png?size=256"
   },
   {
-    "code": "4TTArFDrDD"
+    "code": "4TTArFDrDD",
+    "name": "The Great Clan Collab",
+    "description": null,
+    "memberCount": 46,
+    "icon": "https://cdn.discordapp.com/icons/1553426313379971153/66e682c234b7dfa59e19a9b116b45e43.png?size=256"
   }
 ]
