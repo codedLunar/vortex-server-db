@@ -12,7 +12,7 @@ async function logDatabase() {
 
         let newObject = {
             "timestamp": new Date().toISOString(),
-            "data": databaseData
+            "data": JSON.parse(databaseData)
         }
 
         db.push(newObject)
