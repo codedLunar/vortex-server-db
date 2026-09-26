@@ -1,8 +1,6 @@
 name: UpdateServerData
 
 on:
-  schedule:
-    - cron: '36 * * * *'
   workflow_dispatch:
 
 jobs:
