@@ -309,7 +309,7 @@ async function main() {
 
 main()
 
-document.querySelector("desc").textContent = `Stats are updated every hour, next update in ${60 - new Date().getMinutes()} minutes`
+document.querySelector("#desc").textContent = `Stats are updated every hour, next update in ${60 - new Date().getMinutes()} minutes`
 
 document.querySelector("#search-input").addEventListener('input', (e) => {
       search();
